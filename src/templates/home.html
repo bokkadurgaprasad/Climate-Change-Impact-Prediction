@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Change Impact Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="home-container">
+        <canvas id="rain-canvas"></canvas>
+        <a href="/input" class="home-button">Climate Change Prediction</a>
+    </div>
+    <script src="{{ url_for('static', filename='rain.js') }}"></script>
+</body>
+</html>
